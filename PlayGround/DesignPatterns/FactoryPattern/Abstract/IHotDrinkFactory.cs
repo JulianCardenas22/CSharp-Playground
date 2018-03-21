@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Parallel.DesignPatterns.Factory.Abstract
+namespace PlayGround.DesignPatterns.FactoryPattern.Abstract
 {
-    public interface IHotDrink
+    interface IHotDrinkFactory
     {
-        void Consume();
+        IHotDrink Prepare(int amount);
     }
 }

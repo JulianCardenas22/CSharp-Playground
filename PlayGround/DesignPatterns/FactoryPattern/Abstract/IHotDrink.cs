@@ -3,11 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
-namespace Parallel.DesignPatterns.Factory.Abstract
+namespace PlayGround.DesignPatterns.FactoryPattern.Abstract
 {
-    interface IHotDrinkFactory
+    public interface IHotDrink
     {
-        IHotDrink Prepare(int amount);
+        void Consume();
     }
 }

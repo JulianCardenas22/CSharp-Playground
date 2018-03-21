@@ -42,6 +42,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DesignPatterns\FactoryPattern\Abstract\Coffee.cs" />
+    <Compile Include="DesignPatterns\FactoryPattern\Abstract\CoffeeFactory.cs" />
+    <Compile Include="DesignPatterns\FactoryPattern\Abstract\HotDrinkMachine.cs" />
+    <Compile Include="DesignPatterns\FactoryPattern\Abstract\HotDrinkMachineOp.cs" />
+    <Compile Include="DesignPatterns\FactoryPattern\Abstract\IHotDrink.cs" />
+    <Compile Include="DesignPatterns\FactoryPattern\Abstract\IHotDrinkFactory.cs" />
+    <Compile Include="DesignPatterns\FactoryPattern\Point.cs" />
+    <Compile Include="DesignPatterns\FactoryPattern\Abstract\Tea.cs" />
+    <Compile Include="DesignPatterns\FactoryPattern\Abstract\TeaFactory.cs" />
+    <Compile Include="Helps\Help.cs" />
+    <Compile Include="Parallelism\TasksPlayGround\TaskExamples.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -49,12 +60,11 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Algorithms\" />
     <Folder Include="Collections\" />
-    <Folder Include="DesignPatterns\" />
     <Folder Include="Equality\" />
     <Folder Include="Generics\" />
     <Folder Include="Linq\" />
-    <Folder Include="Parallelism\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

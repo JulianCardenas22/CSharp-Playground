@@ -4,19 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-using Parallel.Helpers;
+using PlayGround.Helps;
 
-namespace Task_Playground
+namespace PlayGround.Parallelism.TasksPlayGround
 {
     class TaskExamples
     {
 
-        public TaskExamples()
-        {
-      
-
-        }
-
+        
         public void StopTask()
         {
             // Cancellation token

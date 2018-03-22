@@ -1,0 +1,9 @@
+C:\Users\julian.cardenas\Desktop\Git\CSharp-Playground\PlayGround\bin\Debug\PlayGround.exe.config
+C:\Users\julian.cardenas\Desktop\Git\CSharp-Playground\PlayGround\bin\Debug\PlayGround.exe
+C:\Users\julian.cardenas\Desktop\Git\CSharp-Playground\PlayGround\bin\Debug\PlayGround.pdb
+C:\Users\julian.cardenas\Desktop\Git\CSharp-Playground\PlayGround\bin\Debug\System.ValueTuple.dll
+C:\Users\julian.cardenas\Desktop\Git\CSharp-Playground\PlayGround\bin\Debug\System.ValueTuple.xml
+C:\Users\julian.cardenas\Desktop\Git\CSharp-Playground\PlayGround\obj\Debug\PlayGround.csproj.CoreCompileInputs.cache
+C:\Users\julian.cardenas\Desktop\Git\CSharp-Playground\PlayGround\obj\Debug\PlayGround.exe
+C:\Users\julian.cardenas\Desktop\Git\CSharp-Playground\PlayGround\obj\Debug\PlayGround.pdb
+C:\Users\julian.cardenas\Desktop\Git\CSharp-Playground\PlayGround\obj\Debug\PlayGround.csprojResolveAssemblyReference.cache

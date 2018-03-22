@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PlayGround.DesignPatterns.FactoryPattern.Abstract
+namespace PlayGround.DesignPatterns.Prototype
 {
-    public interface IHotDrink
+   public interface IPrototype<T>
     {
-        void Consume();
+        T DeepCopy();
     }
 }

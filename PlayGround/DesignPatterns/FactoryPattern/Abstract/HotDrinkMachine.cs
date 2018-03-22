@@ -30,33 +30,6 @@ namespace PlayGround.DesignPatterns.FactoryPattern.Abstract
             return factories[drink].Prepare(amount);
         }
 
-        public IHotDrink MakeDrinkOp(){
-
-            Console.WriteLine("Available Drinks");
-            for (int i = 0; i < factoriesList.Count; i++){
-              var tuple = factoriesList[i];
-              WriteLine("{0}: {1} ",i, tuple.Item1);
-            }
-
-            Console.WriteLine("Select One");
-
-
-            while (true)
-            {
-                string s = "";
-                if ((s = ReadLine()) != null && int.TryParse(s, out int i)
-                                   && i >= 0 && i < factoriesList.Count){
-
-                    WriteLine("Amount :");
-                    s = ReadLine();
-                    if (s != null && int.TryParse(s, out int amount) && amount > 0){
-                        return factoriesList[i].Item2.Prepare(amount);
-                    }
-                }
-                else { 
-                    WriteLine("Invalid Drink");
-                }
-            }
-        }
+     
     }
 }   

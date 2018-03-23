@@ -34,6 +34,9 @@
     <LangVersion>7.1</LangVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="MoreLinq, Version=2.10.21623.0, Culture=neutral, PublicKeyToken=384d532d7e88985d, processorArchitecture=MSIL">
+      <HintPath>..\packages\morelinq.2.10.0\lib\net40\MoreLinq.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.ValueTuple, Version=4.0.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
@@ -48,6 +51,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Algorithms\DiagonalDifference.cs" />
+    <Compile Include="Algorithms\FindMissingNumbers.cs" />
+    <Compile Include="Algorithms\IntToRoman.cs" />
+    <Compile Include="DesignPatterns\Adapter\Point.cs" />
     <Compile Include="DesignPatterns\FactoryPattern\Abstract\Coffee.cs" />
     <Compile Include="DesignPatterns\FactoryPattern\Abstract\CoffeeFactory.cs" />
     <Compile Include="DesignPatterns\FactoryPattern\Abstract\HotDrinkMachine.cs" />
@@ -64,6 +70,7 @@
     <Compile Include="DesignPatterns\Prototype\ExtensionMethods.cs" />
     <Compile Include="DesignPatterns\Prototype\IPrototype.cs" />
     <Compile Include="DesignPatterns\Prototype\Person.cs" />
+    <Compile Include="DesignPatterns\Singleton\Singleton.cs" />
     <Compile Include="Helps\Help.cs" />
     <Compile Include="Parallelism\TasksPlayGround\TaskExamples.cs" />
     <Compile Include="Program.cs" />
@@ -78,6 +85,9 @@
     <Folder Include="Equality\" />
     <Folder Include="Generics\" />
     <Folder Include="Linq\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DesignPatterns\Singleton\Capitals.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

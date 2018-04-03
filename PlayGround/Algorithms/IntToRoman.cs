@@ -35,7 +35,7 @@ namespace PlayGround.Algorithms
             InitializeRomanNumbers();
 
             var roman = ToRoman(19);
-            var integer = ToInt(roman);
+        
 
             Console.WriteLine(roman);
 
@@ -56,12 +56,7 @@ namespace PlayGround.Algorithms
        
         }
 
-        public int ToInt(String number)
-        {
-            
-        }
-
-
+        
 
 
 

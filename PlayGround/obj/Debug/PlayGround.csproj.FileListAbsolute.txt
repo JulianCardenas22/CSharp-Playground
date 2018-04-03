@@ -7,3 +7,5 @@ C:\Users\julian.cardenas\Desktop\Git\CSharp-Playground\PlayGround\obj\Debug\Play
 C:\Users\julian.cardenas\Desktop\Git\CSharp-Playground\PlayGround\obj\Debug\PlayGround.exe
 C:\Users\julian.cardenas\Desktop\Git\CSharp-Playground\PlayGround\obj\Debug\PlayGround.pdb
 C:\Users\julian.cardenas\Desktop\Git\CSharp-Playground\PlayGround\obj\Debug\PlayGround.csprojResolveAssemblyReference.cache
+C:\Users\julian.cardenas\Desktop\Git\CSharp-Playground\PlayGround\bin\Debug\MoreLinq.dll
+C:\Users\julian.cardenas\Desktop\Git\CSharp-Playground\PlayGround\bin\Debug\MoreLinq.xml

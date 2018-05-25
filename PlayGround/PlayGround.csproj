@@ -57,6 +57,11 @@
     <Compile Include="Algorithms\FindMissingNumbers.cs" />
     <Compile Include="Algorithms\IntToRoman.cs" />
     <Compile Include="DesignPatterns\Adapter\Point.cs" />
+    <Compile Include="DesignPatterns\DecoratorPattern\ConcreteDecorator1.cs" />
+    <Compile Include="DesignPatterns\DecoratorPattern\ConcreteDecorator2.cs" />
+    <Compile Include="DesignPatterns\DecoratorPattern\Decorator.cs" />
+    <Compile Include="DesignPatterns\DecoratorPattern\Component.cs" />
+    <Compile Include="DesignPatterns\DecoratorPattern\ConcreteComponent.cs" />
     <Compile Include="DesignPatterns\FactoryPattern\Abstract\Coffee.cs" />
     <Compile Include="DesignPatterns\FactoryPattern\Abstract\CoffeeFactory.cs" />
     <Compile Include="DesignPatterns\FactoryPattern\Abstract\HotDrinkMachine.cs" />
@@ -69,6 +74,11 @@
     <Compile Include="DesignPatterns\FactoryPattern\Point.cs" />
     <Compile Include="DesignPatterns\FactoryPattern\Abstract\Tea.cs" />
     <Compile Include="DesignPatterns\FactoryPattern\Abstract\TeaFactory.cs" />
+    <Compile Include="DesignPatterns\ObserverPattern\ConcreteObservable.cs" />
+    <Compile Include="DesignPatterns\ObserverPattern\ConcreteObserver.cs" />
+    <Compile Include="DesignPatterns\ObserverPattern\IDisplayData.cs" />
+    <Compile Include="DesignPatterns\ObserverPattern\IObservable.cs" />
+    <Compile Include="DesignPatterns\ObserverPattern\IObserver.cs" />
     <Compile Include="DesignPatterns\Prototype\Address.cs" />
     <Compile Include="DesignPatterns\Prototype\ExtensionMethods.cs" />
     <Compile Include="DesignPatterns\Prototype\IPrototype.cs" />

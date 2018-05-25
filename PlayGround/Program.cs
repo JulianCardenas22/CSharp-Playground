@@ -12,6 +12,7 @@ using PlayGround.Fundamentals;
 using PlayGround.GenericsType;
 using PlayGround.Parallelism.TasksPlayGround;
 using PlayGround.Json;
+using PlayGround.DesignPatterns.DecoratorPattern;
 
 namespace PlayGround
 {
@@ -21,22 +22,19 @@ namespace PlayGround
         {
             new Rectangule(1,1,10,10),
             new Rectangule(3,3,6,6)
-        }; 
+        };
 
 
         static void Main(string[] args)
         {
-           var a = new Stuff();
-            var sadsa = new JsonResult();
+            var obj = new ConcreteDecorator1(
+                      new ConcreteDecorator2(
+                      new ConcreteDecorator2(
+                      new ConcreteComponent())));
 
-           var json= a.ToJsonString();
-            var sdasd = sadsa.ToJsonString();
-            Console.WriteLine(json);
-            Console.WriteLine(sdasd);
-
-            json.GetLength();
-            var l = json.Reverse();
-            Console.WriteLine(l);
+            var a = obj.MethodA();
+            var b = a;
+            
         }
 
         public static void DrawPoint(Point p)

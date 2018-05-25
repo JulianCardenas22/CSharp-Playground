@@ -17,7 +17,7 @@ namespace PlayGround.DesignPatterns.ObserverPattern
 
         public void Display()
         {
-            Console.WriteLine("Data");
+            Console.WriteLine("Data:");
         }
 
         public ConcreteObserver(ConcreteObservable observable)

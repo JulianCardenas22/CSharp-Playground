@@ -24,12 +24,14 @@ namespace PlayGround.DesignPatterns.ObserverPattern
         }
         public void GetData()
         {
-       ]
-
         }
+
+
         public ConcreteObservable()
         {
             _observers = new List<IObserver>();
         }
+
     }
 }
+

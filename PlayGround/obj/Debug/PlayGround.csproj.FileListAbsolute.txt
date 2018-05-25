@@ -9,3 +9,17 @@ C:\Users\julian.cardenas\Desktop\Git\CSharp-Playground\PlayGround\obj\Debug\Play
 C:\Users\julian.cardenas\Desktop\Git\CSharp-Playground\PlayGround\obj\Debug\PlayGround.csprojResolveAssemblyReference.cache
 C:\Users\julian.cardenas\Desktop\Git\CSharp-Playground\PlayGround\bin\Debug\MoreLinq.dll
 C:\Users\julian.cardenas\Desktop\Git\CSharp-Playground\PlayGround\bin\Debug\MoreLinq.xml
+C:\Users\alberto.gomez.GPOEISEI\Desktop\git\Playground\CSharp-Playground\PlayGround\bin\Debug\PlayGround.exe.config
+C:\Users\alberto.gomez.GPOEISEI\Desktop\git\Playground\CSharp-Playground\PlayGround\bin\Debug\PlayGround.exe
+C:\Users\alberto.gomez.GPOEISEI\Desktop\git\Playground\CSharp-Playground\PlayGround\bin\Debug\PlayGround.pdb
+C:\Users\alberto.gomez.GPOEISEI\Desktop\git\Playground\CSharp-Playground\PlayGround\bin\Debug\MoreLinq.dll
+C:\Users\alberto.gomez.GPOEISEI\Desktop\git\Playground\CSharp-Playground\PlayGround\bin\Debug\System.ValueTuple.dll
+C:\Users\alberto.gomez.GPOEISEI\Desktop\git\Playground\CSharp-Playground\PlayGround\bin\Debug\MoreLinq.xml
+C:\Users\alberto.gomez.GPOEISEI\Desktop\git\Playground\CSharp-Playground\PlayGround\bin\Debug\System.ValueTuple.xml
+C:\Users\alberto.gomez.GPOEISEI\Desktop\git\Playground\CSharp-Playground\PlayGround\obj\Debug\PlayGround.csprojResolveAssemblyReference.cache
+C:\Users\alberto.gomez.GPOEISEI\Desktop\git\Playground\CSharp-Playground\PlayGround\obj\Debug\PlayGround.csproj.CoreCompileInputs.cache
+C:\Users\alberto.gomez.GPOEISEI\Desktop\git\Playground\CSharp-Playground\PlayGround\obj\Debug\PlayGround.csproj.CopyComplete
+C:\Users\alberto.gomez.GPOEISEI\Desktop\git\Playground\CSharp-Playground\PlayGround\obj\Debug\PlayGround.exe
+C:\Users\alberto.gomez.GPOEISEI\Desktop\git\Playground\CSharp-Playground\PlayGround\obj\Debug\PlayGround.pdb
+C:\Users\alberto.gomez.GPOEISEI\Desktop\git\Playground\CSharp-Playground\PlayGround\bin\Debug\Newtonsoft.Json.dll
+C:\Users\alberto.gomez.GPOEISEI\Desktop\git\Playground\CSharp-Playground\PlayGround\bin\Debug\Newtonsoft.Json.xml

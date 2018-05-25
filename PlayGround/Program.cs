@@ -8,6 +8,10 @@ using PlayGround.Helps;
 using PlayGround.DesignPatterns.Prototype;
 using PlayGround.DesignPatterns.Adapter;
 using MoreLinq;
+using PlayGround.Fundamentals;
+using PlayGround.GenericsType;
+using PlayGround.Parallelism.TasksPlayGround;
+using PlayGround.Json;
 
 namespace PlayGround
 {
@@ -22,15 +26,17 @@ namespace PlayGround
 
         static void Main(string[] args)
         {
+           var a = new Stuff();
+            var sadsa = new JsonResult();
 
-            foreach (var vo in vectorObjects)
-            {
-                foreach (var line in vo)
-                {
-                    var adapter = new LineToPointAdapter(line);
-                    adapter.ForEach(DrawPoint);
-                }
-            }
+           var json= a.ToJsonString();
+            var sdasd = sadsa.ToJsonString();
+            Console.WriteLine(json);
+            Console.WriteLine(sdasd);
+
+            json.GetLength();
+            var l = json.Reverse();
+            Console.WriteLine(l);
         }
 
         public static void DrawPoint(Point p)

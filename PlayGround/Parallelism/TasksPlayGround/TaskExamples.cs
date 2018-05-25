@@ -25,25 +25,31 @@ namespace PlayGround.Parallelism.TasksPlayGround
                     token.ThrowIfCancellationRequested();
 
                     Console.WriteLine($"{i++}\t"); }
-            }
-            , token);
+            } , token);
+      //      task.Start();
 
-
-            task.Start();
-
-
+            //Task Create and Start
             Task.Factory.StartNew(() =>
            {
+               //Blocks the code until token is cancelled
                token.WaitHandle.WaitOne();
                Console.WriteLine("Wait Handle released , cancelation requested");
            });
 
+
             var planned = new CancellationTokenSource();
             var preventative = new CancellationTokenSource();
             var emergency = new CancellationTokenSource();
+            var paranoid = CancellationTokenSource.CreateLinkedTokenSource(planned.Token,preventative.Token,emergency.Token);
 
-            var paranoid = CancellationTokenSource.CreateLinkedTokenSource(planned.Token, preventative.Token, emergency.Token);
-
+            var task2 = new Task(() => {
+                int i = 0;
+                while (true)
+                {
+                    paranoid.Token.ThrowIfCancellationRequested();
+                    Console.WriteLine($"Julian {i++}");
+                }
+            },paranoid.Token);
 
             Console.WriteLine("Main program done.");
             Console.ReadKey();
@@ -85,7 +91,11 @@ namespace PlayGround.Parallelism.TasksPlayGround
             Console.ReadKey();
         }
 
+        public void WaitTask()
+        {
 
+
+        }
        
 
     }

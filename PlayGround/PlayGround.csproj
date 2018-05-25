@@ -37,6 +37,9 @@
     <Reference Include="MoreLinq, Version=2.10.21623.0, Culture=neutral, PublicKeyToken=384d532d7e88985d, processorArchitecture=MSIL">
       <HintPath>..\packages\morelinq.2.10.0\lib\net40\MoreLinq.dll</HintPath>
     </Reference>
+    <Reference Include="Newtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.11.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.ValueTuple, Version=4.0.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
@@ -71,8 +74,17 @@
     <Compile Include="DesignPatterns\Prototype\IPrototype.cs" />
     <Compile Include="DesignPatterns\Prototype\Person.cs" />
     <Compile Include="DesignPatterns\Singleton\Singleton.cs" />
+    <Compile Include="Fundamentals\Out_parameter.cs" />
+    <Compile Include="Fundamentals\Ref_parameter.cs" />
+    <Compile Include="Generics\GenericsType\Generic.cs" />
+    <Compile Include="Generics\GenericsType\IOperation.cs" />
+    <Compile Include="Generics\GenericsType\Operation.cs" />
     <Compile Include="Helps\Help.cs" />
+    <Compile Include="Json\JsonResult.cs" />
+    <Compile Include="Json\JsonToCsv.cs" />
+    <Compile Include="Json\Stuff.cs" />
     <Compile Include="Parallelism\TasksPlayGround\TaskExamples.cs" />
+    <Compile Include="Parallelism\TasksPlayGround\TaskGeneric.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -82,8 +94,8 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Collections\" />
+    <Folder Include="Delegates\" />
     <Folder Include="Equality\" />
-    <Folder Include="Generics\" />
     <Folder Include="Linq\" />
   </ItemGroup>
   <ItemGroup>
